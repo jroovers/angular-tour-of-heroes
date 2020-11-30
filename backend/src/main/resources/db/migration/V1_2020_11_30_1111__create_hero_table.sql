@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS HERO(
-    id serial,
+    id int auto_increment,
     name varchar
 );
 

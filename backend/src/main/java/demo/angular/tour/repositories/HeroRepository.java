@@ -6,4 +6,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface HeroRepository extends CrudRepository<Hero, Integer> {
+
+    public Iterable<Hero> findByNameContains(String name);
 }
