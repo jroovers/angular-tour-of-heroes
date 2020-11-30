@@ -33,7 +33,7 @@ public class HeroController {
         else{
             LOG.info("GET all heroes with name {}", name);
             List<Hero> heroArrayList = new ArrayList<>();
-            heroDao.findByNameContains(name).forEach(heroArrayList::add);
+            heroDao.findByNameContainingIgnoreCase(name).forEach(heroArrayList::add);
             return ResponseEntity.ok(heroArrayList.toArray(new Hero[]{}));
         }
     }
