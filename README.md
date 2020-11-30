@@ -6,10 +6,10 @@
 From instructions at on https://v11.angular.io/tutorial
 
 ### Dashboard View
-<img src="img/dashboard.png"/>
+<img src="img/dashboard.PNG"/>
 
 ### List View 
-<img src="img/list.png"/>
+<img src="img/list.PNG"/>
 
 ### Detail View 
-<img src="img/details.png"/>
+<img src="img/details.PNG"/>
